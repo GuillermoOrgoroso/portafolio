@@ -1,0 +1,50 @@
+/* Estilos para el menú */
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(62, 59, 59, 0.5);
+    padding: 10px;
+  }
+  
+  /* Estilos para los enlaces del menú */
+  .menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    font: small-caps 100%/200% serif;
+  }
+  
+  /* Estilos para los enlaces del menú al pasar el mouse por encima */
+  .menu a:hover {
+    color: rgba(16, 236, 203, 0.946);
+    text-decoration: underline;
+  }
+
+body {
+ background-image: url("./background.jpg");
+ background-size: cover;
+
+}
+
+.cuadro-texto {
+  background-color: rgba(255, 255, 255, 0.5);
+  position: absolute;
+  top: 70px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 20px;
+  width: 65%;
+  margin: auto;
+}
+
+.cuadro-texto h1 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+.cuadro-texto p {
+  font-size: 16px;
+}
